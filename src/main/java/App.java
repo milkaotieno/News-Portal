@@ -8,7 +8,9 @@ import models.User;
 import models.dao.Sql2oDepartmentDao;
 import models.dao.Sql2oNewsDao;
 import models.dao.Sql2oUserDao;
+import models.dao.User;
 import models.projos.Department;
+import models.projos.News;
 import org.sql2o.Sql2o;
 
 import static spark.Spark.*;
@@ -88,5 +90,10 @@ public class App {
             return gson.toJson(userDao);//send it back to be displayed
         });
 
+    }
+
+    private static class Sql2oUserDao {
+        public Sql2oUserDao(Sql2o sql2o) {
+        }
     }
 }
