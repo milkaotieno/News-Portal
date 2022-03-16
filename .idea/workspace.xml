@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9f80b1c-f928-49f7-a105-5c422283f0fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/projos/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/models/dao/DepartmentDao" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +70,28 @@
       <option name="project" value="LOCAL" />
       <updated>1647462418032</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="create department class">
+      <created>1647462487648</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1647462487648</updated>
+    </task>
+    <task id="LOCAL-00004" summary="create news class">
+      <created>1647462519582</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1647462519582</updated>
+    </task>
+    <task id="LOCAL-00005" summary="create user class">
+      <created>1647462544852</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1647462544852</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -87,6 +108,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add app class" />
     <MESSAGE value="create models" />
-    <option name="LAST_COMMIT_MESSAGE" value="create models" />
+    <MESSAGE value="create department class" />
+    <MESSAGE value="create news class" />
+    <MESSAGE value="create user class" />
+    <option name="LAST_COMMIT_MESSAGE" value="create user class" />
   </component>
 </project>
