@@ -5,6 +5,10 @@ import dao.Sql2oUserDao;
 import models.Department;
 import models.News;
 import models.User;
+import models.dao.Sql2oDepartmentDao;
+import models.dao.Sql2oNewsDao;
+import models.dao.Sql2oUserDao;
+import models.projos.Department;
 import org.sql2o.Sql2o;
 
 import static spark.Spark.*;

@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9f80b1c-f928-49f7-a105-5c422283f0fc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/DB/create.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/dao/Sql2oDepartmentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/dao/Sql2oDepartmentDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/dao/Sql2oNewsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/dao/Sql2oNewsDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/dao/Sql2oUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/dao/Sql2oUserDao.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +22,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -36,7 +35,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Downloads/NewsApi" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/DB" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -145,7 +144,21 @@
       <option name="project" value="LOCAL" />
       <updated>1647464644145</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="keep departmentdao changes">
+      <created>1647465468246</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1647465468246</updated>
+    </task>
+    <task id="LOCAL-00014" summary="keep departmentdao changes">
+      <created>1647465553658</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1647465553658</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
