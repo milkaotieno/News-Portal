@@ -3,6 +3,8 @@ package models.dao;
 //public class Sql2oUserDao {
 //}
 
+import models.projos.User;
+
 import java.util.List;
 
 interface UserDao {
