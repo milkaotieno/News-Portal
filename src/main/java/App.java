@@ -17,11 +17,7 @@ public class App {
         Sql2oDepartmentDao departmentDao = new Sql2oDepartmentDao(sql2o);
         Gson gson = new Gson();
 
-//        Api test
-//        System.out.println("Sanity check");
-//        get("/test","application/json",(request, response)->{
-//            return "{\"Hello\":\"Bro\"}";
-//        });
+
 
         post("/departments/new", "application/json", (req, res) -> {
             Department department = gson.fromJson(req.body(), Department.class);
