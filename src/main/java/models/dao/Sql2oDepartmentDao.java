@@ -1,7 +1,12 @@
 package models.dao;
 
 
+import models.projos.Department;
+import org.sql2o.Sql2o;
+import org.sql2o.Sql2oException;
+
 import java.sql.Connection;
+import java.sql.SQLException;
 import java.util.List;
 
 public class Sql2oDepartmentDao implements DepartmentDao{
@@ -70,10 +75,10 @@ public class Sql2oDepartmentDao implements DepartmentDao{
     public void deleteAllDepartments() {
         getDrivers();
         String sql = "DELETE FROM departments";
-        try(Connection conn = sql2o.open()){
+        try(Connection conn = (Connection) sql2o.open()){
             conn.createQuery(sql)
                     .executeUpdate();
-        }catch(Sql2oException e){
+        }catch(Sql2oException | SQLException e){
             System.out.println(e);
         }
     }
