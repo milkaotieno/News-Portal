@@ -1,19 +1,13 @@
 import com.google.gson.Gson;
-import dao.Sql2oDepartmentDao;
-import dao.Sql2oNewsDao;
-import dao.Sql2oUserDao;
-import models.Department;
-import models.News;
-import models.User;
 import models.dao.Sql2oDepartmentDao;
 import models.dao.Sql2oNewsDao;
-import models.dao.Sql2oUserDao;
 import models.dao.User;
 import models.projos.Department;
 import models.projos.News;
 import org.sql2o.Sql2o;
 
-import static spark.Spark.*;
+import static spark.Spark.get;
+import static spark.Spark.post;
 public class App {
     public static void main(String[] args) {
         String connectionString = "jdbc:postgresql://localhost:5432/news_db";
@@ -94,6 +88,13 @@ public class App {
 
     private static class Sql2oUserDao {
         public Sql2oUserDao(Sql2o sql2o) {
+        }
+
+        public void addUsser(User user) {
+        }
+
+
+        public void addUser(User user) {
         }
     }
 }
